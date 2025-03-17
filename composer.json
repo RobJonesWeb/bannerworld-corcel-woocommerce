@@ -12,9 +12,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/database": "^10.0|^11.0",
-        "illuminate/support": "^10.0|^11.0",
-        "jgrossi/corcel": "^7.0|^8.0",
+        "bannerworld/corcel": "^1.0.x-dev",
         "nesbot/carbon": "^2.66|^3.0"
     },
     "require-dev": {
@@ -34,5 +32,11 @@
             "Tests\\": "tests/",
             "Database\\Factories\\": "tests/database/factories/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/RobJonesWeb/bannerworld-corcel"
+        }
+    ]
 }
