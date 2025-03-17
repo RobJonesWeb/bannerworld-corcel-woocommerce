@@ -1,11 +1,11 @@
 
-<p align="center">
+<p>
   <img src="https://raw.githubusercontent.com/corcel/woocommerce/master/.github/logo.jpg" alt="Corcel WooCommerce logo" />
 </p>
 
 **A collection of Laravel models for WooCommerce.**
 
-This plugin extends base [Corcel](https://github.com/corcel/corcel) package and allows fetching WooCommerce data from WordPress database. Currently this plugin implements the following models:
+This plugin extends base [Corcel](https://github.com/corcel/corcel) package and allows fetching WooCommerce data from WordPress database, currently this plugin implements the following models:
 
 * [Customer](#customer-model) - wrapper for User model
 * [Order](#order-model) - wrapper for Post model
@@ -24,13 +24,10 @@ Some meta values are collected into helper classes:
 
 ## Compatibility list
 
-| Corcel WooCommerce                                    | Laravel        | PHP version   | Supported          |
-| ----------------------------------------------------- | -------------- | ------------- | ------------------ |
-| 5.x (master)                                          | 10.x, 11.x     | >= 8.2        | :white_check_mark: |
-| [4.x](https://github.com/corcel/woocommerce/tree/4.x) | 10.x           | >= 8.1        | :white_check_mark: |
-| [3.x](https://github.com/corcel/woocommerce/tree/3.x) | 9.x            | >= 8.0.3      | :x:                |
-| [2.x](https://github.com/corcel/woocommerce/tree/2.x) | 6.x, 7.x, 8.x  | >= 7.3 \| 8.0 | :x:                |
-| [1.x](https://github.com/corcel/woocommerce/tree/1.x) | 6.x, 7.x       | >= 7.2        | :x:                |
+| Corcel WooCommerce | Laravel    | PHP version | Supported          |
+|--------------------|------------|-------------|--------------------|
+| 1.x (master)       | 11.x, 12.x | >= 8.2      | :white_check_mark: |
+
 
 ## Installation
 
